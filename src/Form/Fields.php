@@ -3,7 +3,6 @@
 
 namespace Erkurn\Pedia\Form;
 
-
 abstract class Fields
 {
     private string $label;
@@ -14,9 +13,10 @@ abstract class Fields
 
     public static function make(string $label, string $name) : self
     {
-        $instance =  new static();
+        $instance = new static();
         $instance->label = $label;
         $instance->name = $name;
+
         return $instance;
     }
 }

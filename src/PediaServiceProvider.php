@@ -2,8 +2,8 @@
 
 namespace Erkurn\Pedia;
 
-use Illuminate\Support\ServiceProvider;
 use Erkurn\Pedia\Commands\PediaCommand;
+use Illuminate\Support\ServiceProvider;
 
 class PediaServiceProvider extends ServiceProvider
 {
