@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "erkurn/pedia",
+    "description": "Form Fieldsn Generator By Backend Code Driven",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "erkurn",
+        "pedia"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/erkurn/pedia",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Rezza Kurniawan",
+            "email": "rezza.kurniawan@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Erkurn\\Pedia\\": "src",
+            "Erkurn\\Pedia\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Erkurn\\Pedia\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Erkurn\\Pedia\\PediaServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Pedia": "Erkurn\\Pedia\\PediaFacade"
             }
         }
     },
