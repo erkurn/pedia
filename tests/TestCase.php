@@ -2,9 +2,9 @@
 
 namespace Erkurn\Pedia\Tests;
 
+use Erkurn\Pedia\PediaServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Erkurn\Pedia\PediaServiceProvider;
 
 class TestCase extends Orchestra
 {
